@@ -1,0 +1,49 @@
+:root {
+  --color-basic: rgba(1, 28, 68, 1);
+  --color-brand: rgba(43, 127, 255, 1);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.body {
+  color: var(--color-basic);
+}
+
+.button-main {
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  background-color: var(--color-brand);
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.button-main:hover {
+  color: var(--color-basic);
+  background-color: transparent;
+}
+
+.coment-button {
+  color: rgba(74, 74, 74, 1);
+}
+
+.link-header {
+  color: var(--color-basic);
+}
+
+.link-header:hover {
+  color: var(--color-brand);
+}
+
+.hero-title {
+  color: var(--color-brand);
+}
+
+.section-title {
+  color: var(--color-basic);
+}
+
+.section-title .accent {
+  color: var(--color-brand);
+}
