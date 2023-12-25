@@ -3,14 +3,16 @@
   --color-brand: rgba(43, 127, 255, 1);
 }
 
+.body {
+  color: var(--color-basic);
+  font-family: "roboto", sans-serif;
+}
+
+/* nav menu */
+
 ul {
   list-style-type: none;
 }
-
-.body {
-  color: var(--color-basic);
-}
-
 .button-main {
   border: 2px solid var(--color-brand);
   border-radius: 32px;
@@ -30,18 +32,40 @@ ul {
 
 .link-header {
   color: var(--color-basic);
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .link-header:hover {
   color: var(--color-brand);
 }
 
+/* section 1 */
+
 .hero-title {
   color: var(--color-brand);
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 144px;
+  text-transform: capitalize;
 }
+
+/* section about us */
 
 .section-title {
   color: var(--color-basic);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .section-title .accent {
