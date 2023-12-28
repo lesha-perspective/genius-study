@@ -1,9 +1,12 @@
 :root {
   --color-basic: rgba(1, 28, 68, 1);
   --color-brand: rgba(43, 127, 255, 1);
+  --color-card: rgba(0, 0, 0, 1);
+  --color-light: rgba(255, 255, 255, 1);
+  --color-copyright: rgba(116, 114, 114, 1);
 }
 
-.body {
+body {
   color: var(--color-basic);
   font-family: "roboto", sans-serif;
 }
@@ -17,8 +20,12 @@ ul {
   border: 2px solid var(--color-brand);
   border-radius: 32px;
   background-color: var(--color-brand);
-  color: rgba(255, 255, 255, 1);
+  color: var(--color-light);
   cursor: pointer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.171;
 }
 
 .button-main:hover {
@@ -28,6 +35,10 @@ ul {
 
 .coment-button {
   color: rgba(74, 74, 74, 1);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .link-header {
@@ -35,8 +46,8 @@ ul {
   text-decoration: none;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: 700;
+  line-height: 1.171;
 }
 
 .link-header:hover {
@@ -51,7 +62,7 @@ ul {
   font-size: 140px;
   font-weight: 700;
   font-style: normal;
-  line-height: 144px;
+  line-height: 1.028;
   text-transform: capitalize;
 }
 
@@ -63,11 +74,55 @@ ul {
   font-size: 64px;
   font-weight: 700;
   font-style: normal;
-  line-height: normal;
+  line-height: 1.15;
   text-transform: capitalize;
   text-align: center;
 }
 
 .section-title .accent {
   color: var(--color-brand);
+}
+.about-section-text {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.727;
+}
+/* whyus section */
+
+.why-us-text {
+  color: var(--color-card);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.333;
+}
+/*  services-section */
+.services-section-text {
+  color: var(--color-light);
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.181;
+}
+/*  contact-section */
+/*  footer */
+.footer {
+  background-color: var(--color-basic);
+}
+.footer-link {
+  color: var(--color-light);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.171;
+  text-decoration: none;
+}
+.footer-copyright {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.171;
+  color: var(--color-copyright);
 }
